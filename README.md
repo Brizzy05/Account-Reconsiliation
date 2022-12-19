@@ -9,4 +9,7 @@ in the state scs we have
 - an amount
 
 The program will analyse the transactions and compare them to the state of the account.
-It returns a csv file containing the account with the actual amount and a decision.
+It will print out to the command line which accounts are not the same.
+
+Provide test files as command line argument 
+.tv testFiles/state.csv testFiles/transactions.csv
